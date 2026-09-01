@@ -1,0 +1,4 @@
+defaultProject: qwiklabs-gcp-02-963527000afc
+defaultLocation: US
+defaultDataset: quakes
+defaultAssertionDataset: dataform_assertions

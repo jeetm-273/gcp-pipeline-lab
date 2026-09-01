@@ -1,0 +1,6 @@
+{
+  "warehouse": "bigquery",
+  "defaultDatabase": "qwiklabs-gcp-01-86161e91a8de",
+  "defaultSchema": "quakes",
+  "defaultLocation": "US"
+}
