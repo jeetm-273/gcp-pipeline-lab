@@ -1,0 +1,10 @@
+-- A declaration has config only, no SQL. It tells Dataform this table exists
+-- and that models may depend on it, which creates the graph edge that
+-- ${ref()} needs. Reading the source as a raw string instead leaves no edge,
+-- and Ex05's lineage graph comes out empty.
+config {
+  type: "declaration",
+  schema: "quakes",
+  name: "quakes_native",
+  description: "Raw layer, loaded from GCS by scripts/load_native.sh"
+}

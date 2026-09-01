@@ -1,0 +1,79 @@
+[
+  {
+    "name": "event_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "USGS event id"
+  },
+  {
+    "name": "event_time",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE",
+    "description": "When the quake happened"
+  },
+  {
+    "name": "updated_time",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE",
+    "description": "When USGS last revised this event"
+  },
+  {
+    "name": "region",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "USGS network code, for example ak ci us hv. Not a geographic region"
+  },
+  {
+    "name": "event_type",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "USGS type: earthquake, quarry blast, explosion, ice quake, landslide"
+  },
+  {
+    "name": "magnitude",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "magnitude_type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "place",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "latitude",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "longitude",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "depth",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "Kilometres"
+  },
+  {
+    "name": "status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "tsunami",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ingested_at",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE",
+    "description": "When the ingest job wrote this row"
+  }
+]

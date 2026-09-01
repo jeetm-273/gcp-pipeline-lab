@@ -1,0 +1,16 @@
+# Copy to lab.tfvars and fill in at the start of each lab session.
+# lab.tfvars is gitignored and is the only place the project ID lives.
+#
+#   cp terraform/lab.tfvars.example terraform/lab.tfvars
+
+project_id     = "qwiklabs-gcp-XX-xxxxxxxxxxxx"
+lab_user_email = "student-XX-xxxxxxxxxxxx@qwiklabs.net"
+
+# Check the org policy first:
+#   gcloud org-policies describe constraints/gcp.resourceLocations --project=PROJECT
+region      = "us-west1"
+bq_location = "US"
+
+# Leave empty for the first apply. Then set to:
+#   pipeline-runner@PROJECT_ID.iam.gserviceaccount.com
+impersonate_sa = ""

@@ -1,0 +1,6 @@
+# Rendered into workflow_settings.yaml by scripts/dataform_sync.sh.
+# The generated file is gitignored, so no project ID is ever committed.
+defaultProject: __PROJECT_ID__
+defaultLocation: __LOCATION__
+defaultDataset: quakes_staging
+defaultAssertionDataset: dataform_assertions
